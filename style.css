@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+nav.navbar{
+    display: flex;
+    height: 10vh;
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+    padding: 50px 10px;
+    position: relative;
+}
+
+
+.navbar img{
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+.navbar::after{
+    position: absolute;
+    content: '';
+    height: 70px;
+    width: 2px;
+    background-color: #ffffff;
+    top: 15px;
+    left: 300px;
+}
+ul.list{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 400px;
+    list-style-type: none;
+    gap: 60px;
+}
+ul.list::before{
+    
+        position: absolute;
+        top: 5px;
+        left: 38px;
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-right: 0.1em solid #ffffff;
+        border-top: 0.1em solid #ffffff;
+        transform: rotate(135deg);
+        margin-right: 0.5em;
+        margin-left: 1.0em;
+}
+button.button-small{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #BA0CC5;
+    color: #ffffff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins';
+}
+section[aria-label="hero"]
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    height: 90vh;
+    width: 100vw;
+    overflow-y: hidden ! important;
+    overflow-x: hidden ! important;
+    background-color: #f8f8f8;
+    background-image: url('assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero{
+    padding: 0 250px;
+}
+.hero-heading{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.hero-description{
+    color: #ffffff;
+    /* font-size: 60px;
+    text-align: center; */
+    padding: 0 320px;
+    font-size: 18px;
+}
+
+.button-large{
+    margin-left: 420px;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #BA0CC5;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
