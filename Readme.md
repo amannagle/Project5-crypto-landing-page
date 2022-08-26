@@ -12,4 +12,4 @@ and background-images.
 ### Deployed link
 
 
-[Digital Marketing Landing Page](https://digital-marketing-landing-page12.netlify.app/)
+[Crypto Landing Page](https://crypto-landing-page123.netlify.app/)
